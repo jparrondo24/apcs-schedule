@@ -14,7 +14,7 @@ public class Schedule {
                                "Mr. Cunningham"};
         
         for (int i = 0; i < classNames.length; i++) {
-            System.out.printf("%d\t%s\t%s\n", (i+1), classNames[i], classTeachers[i]);
+            System.out.printf("%d\t%-50s %-50s\n", (i+1), classNames[i], classTeachers[i]);
         }
     }
 }
